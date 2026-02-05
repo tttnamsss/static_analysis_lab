@@ -1,0 +1,10 @@
+{
+  "name": "SonarQube Lab",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+  },
+  "forwardPorts": [9000]
+}
